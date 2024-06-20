@@ -1,0 +1,31 @@
+# Ignore node_modules directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore package lock files
+package-lock.json
+client/package-lock.json
+server/package-lock.json
+
+
+# Ignore npm configuration file
+.npmrc
+
+# Ignore log files
+npm-debug.log*
+
+# Ignore Vite config and related files if generated during builds
+.vite/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build output directories
+dist/
+build/
