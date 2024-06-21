@@ -5,8 +5,6 @@ Refactor of a Google Books API search engine into a GraphQL API using Apollo Ser
 ![Images](client/src/assets/homepage.png)  <br><br>
 
 
-# Render link
-
 
 # Technologies Used
 
