@@ -9,7 +9,7 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build",
     "render-build":"npm install && npm run build",
-    "rebuild-bcrypt": "cd server && npm rebuild bcrypt"
+    "postinstall": "cd server && npm rebuild bcryptjs"
   },
   "keywords": [],
   "author": "",
